@@ -1,39 +1,22 @@
-# OBSUUM
+# SHADIX
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Solana](https://img.shields.io/badge/Solana-Web3-green.svg)](https://solana.com/)
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/yourusername/ontora-ai.svg)](https://github.com/yourusername/ontora-ai/issues)
 
-[![Website](https://img.shields.io/badge/Website-OBSUUM-blue?logo=google-chrome)](https://obsuum.tech/)
-[![Twitter](https://img.shields.io/badge/Twitter-OBSUUM-blue?logo=twitter)](https://x.com/OBSUUMTX).
+[![Website](https://img.shields.io/badge/Website-SHADIX-blue?logo=google-chrome)](https://shadix.run/)
+[![Twitter](https://img.shields.io/badge/Twitter-SHADIX-blue?logo=twitter)](https://x.com/SHADIXTECH).
 
-```
- _____   ____     ____    __  __  __  __              
-/\  __`\/\  _`\  /\  _`\ /\ \/\ \/\ \/\ \  /'\_/`\    
-\ \ \/\ \ \ \L\ \\ \,\L\_\ \ \ \ \ \ \ \ \/\      \   
- \ \ \ \ \ \  _ <'\/_\__ \\ \ \ \ \ \ \ \ \ \ \__\ \  
-  \ \ \_\ \ \ \L\ \ /\ \L\ \ \ \_\ \ \ \_\ \ \ \_/\ \ 
-   \ \_____\ \____/ \ `\____\ \_____\ \_____\ \_\\ \_\
-    \/_____/\/___/   \/_____/\/_____/\/_____/\/_/ \/_/
-```
+SHADIX introduces a new bridge architecture where privacy becomes portable.
 
-OBSUUM builds an anonymous observation layer on Solana’s public ledger, transforming Pumpfun’s transparent data into verifiable invisible intelligence.
+It connects the Zcash network — long known for its shielded transactions and zk-SNARK privacy model — with Solana’s high-speed programmable environment. Instead of simply wrapping assets, SHADIX translates Zcash’s privacy logic into on-chain proof structures that can operate natively on Solana.
 
-In a world where every wallet, trade, and contract is publicly traceable, OBSUUM introduces a paradox: seeing without revealing. 
+Through its Zero-Knowledge Bridge Layer (ZKBL), SHADIX enables verifiable cross-chain movement of assets without revealing sender, receiver, or amount. Users can deposit ZEC into SHADIX’s vault, generate shielded representations on Solana, and perform swaps, staking, or DeFi interactions — all while keeping transactional data private.
 
-It doesn’t compete with transparency — it redefines it. By encoding every Pumpfun event into anonymized behavioral signals, OBSUUM allows users to perceive the invisible rhythms behind market actions without exposing the identities that drive them.
+Every bridge event is accompanied by a ZK Relay Proof, ensuring that all actions remain cryptographically valid and publicly auditable without exposing any personal or transaction details. This design preserves Zcash’s privacy integrity while extending its functionality into the broader Solana ecosystem.
 
-At its core, OBSUUM operates as a zero-knowledge observation protocol. Each transaction is captured as an encrypted “echo,” stripped of personal identifiers yet cryptographically verifiable. 
+SHADIX isn’t just a connector — it’s a privacy infrastructure layer.
+By combining Zcash’s cryptographic strength with Solana’s composability, it builds the foundation for a new class of cross-chain applications: anonymous DeFi, stealth NFTs, and shielded liquidity networks.
 
-These echoes flow through a distributed network of observers — independent nodes that collectively reconstruct the emotional and structural patterns of the Pumpfun ecosystem.
-
-Instead of focusing on “who” and “where,” OBSUUM focuses on “how” and “why.” It decodes market behavior into dynamic intelligence streams — revealing intent, momentum, and correlation across thousands of tokens in real time. 
-
-What emerges is not a list of wallets, but a living field of on-chain behavior, shaped by human activity and algorithmic impulse.
-
-By blending feature obfuscation, zk-verification, and behavioral analytics, OBSUUM forms the first decentralized intelligence membrane on Solana — a space between light and shadow, visibility and secrecy.
-
-It is not surveillance. It’s awareness.
-
-In an era of radical transparency, OBSUUM restores balance — giving users the power to observe without being observed.
+In a world where transparency is default, SHADIX restores the right to invisible movement — where proof exists, but identity disappears.
