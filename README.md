@@ -6,7 +6,9 @@
 [![GitHub Issues](https://img.shields.io/github/issues/yourusername/ontora-ai.svg)](https://github.com/yourusername/ontora-ai/issues)
 
 [![Website](https://img.shields.io/badge/Website-Owlumn-blue?logo=google-chrome)](https://owlumn.fun/)
-[![Twitter](https://img.shields.io/badge/Twitter-Owlumn-blue?logo=twitter)](https://x.com/Owlumncom)
+[![Twitter](https://img.shields.io/badge/Twitter-Owlumn-blue?logo=twitter)](https://x.com/Owlumncom).
+
+CA: BKo8pyGwjZLT38zZSGnUYnAPptRwzLaKFzcEi9ncpump
 
 
 Owlumn is a living framework that turns the static records of the blockchain into a dynamic ecosystem of knowledge.
