@@ -1,62 +1,93 @@
-# YLDHIT
+# CODNIX
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Solana](https://img.shields.io/badge/Solana-Web3-green.svg)](https://solana.com/)
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/yourusername/ontora-ai.svg)](https://github.com/yourusername/ontora-ai/issues)
 
-[![Website](https://img.shields.io/badge/Website-YLDHIT-blue?logo=google-chrome)](https://yldhit.fun/)
-[![Twitter](https://img.shields.io/badge/Twitter-YLDHIT-blue?logo=twitter)](https://x.com/YLDHITAPP)
+[![Website](https://img.shields.io/badge/Website-Codnix-blue?logo=google-chrome)](https://codnix.tech/)
+[![Twitter](https://img.shields.io/badge/Twitter-Codnix-blue?logo=twitter)](https://x.com/CODNIXBLOCK)
 
-```
-6mM4CzvVWPEryg41MjQYiGCah6yCzCZEaX9J4dxspump
-```
+# Codnix
 
+> Build Solana projects using smart modules.
 
-## Introduction
+Codnix is a modular development framework on Solana that lets you build on-chain projects like assembling code blocks.  
+Instead of wiring everything from scratch, you compose features from ready-to-use modules, generate scaffolding, run checks, and ship.
 
-YLDHIT is a cross-chain risk-shift model designed to reshape how traders manage exposure across decentralized contract markets.
+On-chain V1 is open-sourced in this repository.
 
-Instead of chasing predictions or reacting to volatility, YLDHIT analyzes the structural relationships between contracts—across chains, platforms, and market types—and continuously recalibrates a minimal hedging layer around your positions.
+---
 
-Using real-time correlation mapping, volatility curves, and deviation thresholds, the model identifies when your position begins drifting toward an unfavorable zone. 
+## ✨ What is Codnix?
 
-At that moment, YLDHIT computes the smallest possible counter-position required to redirect the risk trajectory. 
+Codnix is designed to make Solana development feel less like wrestling with boilerplate and more like composing a system.
 
-This creates a dynamic “yield corridor” around your trades, allowing you to participate in upside while dramatically reducing tail exposure.
+- Treat core on-chain capabilities (tokens, NFTs, roles, governance, staking, etc.) as **modules**.
+- Use a **scaffolding engine** to generate project structure and core contract code.
+- Run **basic safety checks** before deploying to Devnet, Testnet or Mainnet.
 
-The system works across prediction markets, perpetuals, options, and custom on-chain contracts. 
+If you understand the business logic, Codnix helps you turn it into runnable Solana code faster.
 
-YLDHIT does not attempt to guess outcomes; it simply maintains your position inside an optimized yield zone regardless of market direction. 
+---
 
-The result is a model that behaves less like a trading tool and more like an adaptive shield—preserving capital efficiency while enabling high-conviction strategies to stay alive longer, stabilize smoother, and capture more consistent returns.
+## 🔧 Core Features
 
-YLDHIT transforms risk management from a static, manual process into a real-time, cross-market, self-adjusting mechanism that continuously works in your favor.
+### 1. Modular Project Composition
+Codnix organizes common Solana patterns into composable modules:
+- Tokens (SPL-style configurations)
+- NFTs & collections
+- Roles / access control / governance hooks
+- Staking / locking / fee routing primitives
 
-## > Why was YLDHIT created?
+You select the modules you need and Codnix generates the project skeleton around them.
 
-In the on-chain contract ecosystem, risk is never linear.
+---
 
-Perpetuals, options, prediction markets, and event contracts each amplify volatility in different ways.
+### 2. Scaffolding & Checks in One Flow
+Codnix aims to cover the “from idea to first deployable version” path:
 
-And when traders hold positions across multiple platforms, assets, and contract types, the real danger no longer comes from price alone—it comes from hidden correlations, volatility spillover, event coupling, and structural mispricing.
+- Generate project structure and core contract scaffolding.
+- Wire basic configuration and interface definitions.
+- Run essential security checks and logic validation before deployment.
 
-The market gives us tools to trade, but not tools to manage how those tools interact.
+---
 
-Most traders rely on manual adjustments, instinctive hedging, or local signals from a single market.
+## 🔁 Workflow
 
-When volatility hits, this often leads to unnecessary exposure—positions lose too fast when they shouldn’t, or profits evaporate long before they should.
+Codnix’s workflow is intentionally simple and split into two major phases.
 
-YLDHIT was created to change that.
+### I. Build
 
-It is not a strategy and not a prediction model.
+1. **Select Modules**  
+   Select the modules you need — tokens, NFTs, roles, governance, and more.
 
-It is a cross-contract risk-shift model that identifies structural relationships between markets and calculates the minimal hedging required to push your positions back toward the optimal yield zone.
+2. **Generate Scaffolding**  
+   Codnix automatically generates your project structure and core contract scaffolding.
 
-YLDHIT is designed as a new layer of infrastructure for on-chain traders.
+### II. Ship
 
-You don’t need to be a quant, a mathematician, or a risk engineer—this model acts as an intelligent layer that continuously realigns risk for you in the background.
+1. **Run Checks**  
+   Run essential security checks and basic logic validation.
 
-The purpose of YLDHIT is simple:
+2. **Deploy Fast**  
+   Deploy your project to Devnet, Testnet, or Mainnet.
 
-to give traders a more stable, longer-lasting, and higher-quality yield curve across the entire on-chain market.
+---
+
+## 🚀 Getting Started
+
+> The commands below are a reference template.  
+> Adjust them to match the actual CLI / structure as the project evolves.
+
+### Prerequisites
+
+- Rust & Cargo installed
+- Solana tool suite installed (`solana --version`)
+- (Optional) Anchor installed (`anchor --version`)
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-org/codnix.git
+cd codnix
