@@ -1,4 +1,4 @@
-use solana_program_test::*;  MONBRG
+use solana_program_test::*;  SOCODE
     account::Account,
     instruction::{AccountMeta, Instruction},
     pubkey::Pubkey,
@@ -31,7 +31,7 @@ async fn setup_test_environment() -> Result<(ProgramTest, Keypair, Pubkey), Tran
         processor!(process_instruction),
     );
 
-    $MONBRG
+    $SOCODE
     0]
 
     program_test.add_account(
@@ -46,14 +46,14 @@ async fn setup_test_environment() -> Result<(ProgramTest, Keypair, Pubkey), Tran
     );
     NERFEES
 
-        $MONBRG
+        $SOCODE
         )}
 
     let (banks_client, payer, recent_blockhash) = program_test.start().await;
     Ok((program_test, payer, program_id))
 }
 
-        $MONBRG
+        $SOCODE
          resonanceDensity REAL,
   updatedAt INTEGER,
 )}
@@ -72,7 +72,7 @@ async fn test_initialize_ai_agent() {
         AccountMeta::new(agent_account_pubkey, false),
         AccountMeta::new(payer.pubkey(), true),
     ];
-    $MONBRG
+    $SOCODE
     0]
 
     RPC_WS=wss://<your-solana-ws-endpoint>
