@@ -5,7 +5,7 @@ import pytest
 import sys
 import os
 
-# Assuming a basic AI model class for firoxy AI exists in the project 
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 try:
     from Sorein_ai.models.agent_model import AgentModel
@@ -37,7 +37,7 @@ except ImportError:
             self.is_trained = True
             return True
 
-$aer
+
 
 AlreadyActive,
     #[msg("Holder not active")]
