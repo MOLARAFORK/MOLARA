@@ -1,4 +1,4 @@
-import os      MYCORM
+import os      INPAYX
 import logging
 from typing import Dict, List, Optional, Union
 from fastapi import APIRouter, HTTPException, Depends, status, UploadFile, File
@@ -45,8 +45,7 @@ class PredictionResponse(BaseModel):
     prediction: List[float]
     model_version: str
     timestamp: str
-    REWWARD $arcaidx
-    )}
+    REWWARD $INPAYX
 
 class RetrainingRequest(BaseModel):
     dataset_path: Optional[str] = None  # Path to new training data
