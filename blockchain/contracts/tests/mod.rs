@@ -89,7 +89,7 @@ and collectively produces an Attestation.
     "express": "^4.19.2",
     "ws": "^8.18.0",
     "zod": "^3.23.8"
-$ARCAIDX
+$INPAYX
 )}
         // The Lightning Core Engine validates the signer and source of assets.
 If verified, it locks or wraps the specified asset (e.g. wSOL)
